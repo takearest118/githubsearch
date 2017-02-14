@@ -1,0 +1,76 @@
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3>Milestone</h3>
+  </div>
+  <div class="panel-body">
+    <div class="row">
+      <div class="col-md-4">
+        <img class="img-thumbnail github-avatar">
+      </div>
+      <div class="col-md-8">
+        <div class="stats">
+          <span class="label label-default">Public Repos</span>
+          <span class="label label-primary">Public Gists</span>
+          <span class="label label-success">Followers</span>
+          <span class="label label-info">Following</span>
+        </div>
+        <br>
+        <ul class="list-group">
+          <li class="list-group-item"><strong>Username: </strong></li>
+          <li class="list-group-item"><strong>Location: </strong></li>
+          <li class="list-group-item"><strong>Email: </strong></li>
+          <li class="list-group-item"><strong>Blog: </strong></li>
+          <li class="list-group-item"><strong>Member Since: </strong></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Open</h3>
+  </div>
+  <div class="panel-body">
+    <div class="row">
+      <div class="col-md-12">
+        <div *ngFor="let repo of repos">
+          <div class="row">
+            <div class="col-md-9">
+              <h4></h4>
+              <p></p>
+            </div>
+            <div class="col-md-3">
+              <span class="label label-default">Watchers</span>
+              <span class="label label-primary">Forks</span>
+            </div>
+          </div>
+          <hr />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Closed</h3>
+  </div>
+  <div class="panel-body">
+    <div class="row">
+      <div class="col-md-12">
+        <div *ngFor="let repo of repos">
+          <div class="row">
+            <div class="col-md-9">
+              <h4></h4>
+              <p></p>
+            </div>
+            <div class="col-md-3">
+              <span class="label label-default">Watchers</span>
+              <span class="label label-primary">Forks</span>
+            </div>
+          </div>
+          <hr />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
